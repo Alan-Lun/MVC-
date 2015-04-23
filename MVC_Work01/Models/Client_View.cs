@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MVC_Work01
+namespace MVC_Work01.Models
 {
     using System;
     using System.Collections.Generic;

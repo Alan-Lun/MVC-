@@ -7,20 +7,20 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MVC_Work01
+namespace MVC_Work01.Models
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class 客戶銀行資訊
+    public partial class 客戶聯絡人
     {
         public int Id { get; set; }
         public int 客戶Id { get; set; }
-        public string 銀行名稱 { get; set; }
-        public int 銀行代碼 { get; set; }
-        public Nullable<int> 分行代碼 { get; set; }
-        public string 帳戶名稱 { get; set; }
-        public string 帳戶號碼 { get; set; }
+        public string 職稱 { get; set; }
+        public string 姓名 { get; set; }
+        public string Email { get; set; }
+        public string 手機 { get; set; }
+        public string 電話 { get; set; }
         public bool 是否已刪除 { get; set; }
     
         public virtual 客戶資料 客戶資料 { get; set; }
